@@ -350,4 +350,24 @@ strong {
     display: flex;
     flex-direction: column;
   }
+
+  .dados-contato {
+    width: 80%;
+  }
+
+  .footer p {
+    font-size: 30px;
+  }
+
+  .redes-sociais i {
+    background-color: #eaebed;
+    border-radius: 30px;
+    margin: 10px;
+    width: 45px;
+    height: 45px;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 8px;
+    font-size: 30px;
+  }
 }
