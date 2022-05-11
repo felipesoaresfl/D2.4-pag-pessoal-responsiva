@@ -1,0 +1,353 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 400, 500, 600;
+  color: #293651;
+  margin: 0;
+}
+
+* {
+  scroll-behavior: smooth;
+  transition-duration: 0.5s;
+}
+
+body h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  color: #293651;
+  letter-spacing: 5px;
+}
+
+.ola {
+  color: #00a78e;
+  font-size: 30px;
+  word-spacing: 5px;
+  letter-spacing: 5px;
+}
+
+.intro {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40em;
+}
+
+.txt-intro {
+  color: #797f7d;
+  font-size: 22px;
+}
+
+.button {
+  background-color: #00a78e;
+  color: #f8fffc;
+  padding: 15px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 20px;
+  border-radius: 6px;
+  border: none;
+  transition-duration: 0.4s;
+  font-size: 20px;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+}
+
+.button:hover {
+  background-color: #e7f7ef;
+  color: #45a88e;
+}
+
+.image {
+  margin-top: 50px;
+  text-align: center;
+}
+
+.conteudo {
+  margin-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40em;
+  color: #797f7d;
+}
+
+.meContrata {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40em;
+}
+
+.sublinhadoStyle {
+  background-color: #00a78e;
+  height: 5px;
+  border-radius: 5px;
+  border-bottom: #00a78e;
+  width: 160px;
+}
+
+.habilidades {
+  margin-top: 10px;
+  width: 40em;
+}
+
+.progress {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 30px;
+  width: 40em;
+  margin-left: auto;
+  margin-right: auto;
+}
+.progress h4 {
+  font-weight: 500;
+  font-size: 25px;
+  color: #293651;
+  margin: 0;
+}
+
+.progress p {
+  color: #797f7d;
+  float: right;
+  margin-top: 0;
+  margin-bottom: 0px;
+  padding: 0;
+  font-size: 18px;
+}
+
+.progress-bar::-webkit-progress-value {
+  background: -webkit-linear-gradient(top, #45a88e 0%, #45a88e 100%);
+  border-radius: 10px;
+}
+
+.progress-bar[value]::-webkit-progress-bar {
+  background: #e2e2e2;
+  border-radius: 10px;
+}
+.progress-bar {
+  height: 15px;
+  width: 100%;
+  border-radius: 30px;
+  margin-top: 10px;
+}
+
+.projetos {
+  background-color: #f9f9f9;
+  width: 100%;
+  height: 1200px;
+  margin-top: 100px;
+  padding-top: 20px;
+}
+
+.projetos h1 {
+  margin-top: 50px;
+  padding-top: 20px;
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+  color: #293651;
+}
+
+.sublinhadoStyleCenter {
+  background-color: #00a78e;
+  height: 5px;
+  border-radius: 5px;
+  border-bottom: #00a78e;
+  width: 140px;
+  margin: auto;
+  margin-top: 30px;
+}
+
+.caixas-projetos {
+  width: 60em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.box-projeto {
+  display: inline-block;
+  width: 400px;
+  height: 400px;
+  text-align: center;
+  margin: 20px 20px 20px 20px;
+  background-color: #ffffff;
+  box-shadow: 3px 8px 8px #e8e8e8;
+  box-sizing: border-box;
+  padding: 10px;
+}
+
+.box-projeto p {
+  font-size: 20px;
+  color: #797f7d;
+  text-align: left;
+}
+
+.box-projeto h2 {
+  color: #293651;
+}
+
+.box-projeto:hover {
+  background-color: #e7f7ef;
+  color: #45a88e;
+}
+
+.button:hover {
+  background-color: #e7f7ef;
+  color: #45a88e;
+}
+
+.btn-topo {
+  cursor: pointer;
+  height: 0px;
+  position: fixed;
+  right: 25px;
+  width: 50px;
+  bottom: 100px;
+  z-index: 1;
+}
+
+.btn-topo-img {
+  justify-content: center;
+  background-color: #00a78e;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+}
+
+.contato {
+  width: 100%;
+  height: 500px;
+  color: #f8fffc;
+}
+
+.dados-contato {
+  width: 60%;
+  height: 300px;
+  border-radius: 10px;
+  color: #f8fffc;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 100px;
+  background-image: url("../images/wave.png");
+  background-size: cover;
+}
+
+.sublinhadoBranco {
+  background-color: #f8fffc;
+  height: 5px;
+  border-radius: 5px;
+  border-bottom: #00a78e;
+  width: 170px;
+  margin-left: 50px;
+  position: relative;
+  top: -15px;
+}
+
+.dados-contato h2,
+strong {
+  padding-left: 50px;
+  padding-top: 50px;
+}
+
+.dados-contato h2 {
+  font-size: 40px;
+}
+
+.footer {
+  width: 100%;
+  height: 400px;
+  background-color: #f9f9f9;
+  padding-top: 100px;
+}
+.redes-sociais {
+  text-align: center;
+}
+.redes-sociais i {
+  background-color: #eaebed;
+  border-radius: 30px;
+  margin: 20px;
+  width: 60px;
+  height: 60px;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 10px;
+}
+
+.redes-sociais i:hover {
+  background-color: #2a3651;
+  color: #eaebed;
+}
+
+.footer p {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 50px;
+  font-weight: 600;
+}
+
+.menu-footer {
+  text-align: center;
+}
+.menu-footer a {
+  text-decoration: none;
+  color: #2a3651;
+  margin: 20px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.menu-footer a:hover {
+  background-color: #2a3651;
+  color: #eaebed;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/*mobile*/
+@media (max-width: 720px) {
+  .container {
+    padding: 10px;
+  }
+  .intro {
+    width: 30em;
+  }
+
+  .conteudo {
+    width: 30em;
+  }
+
+  .meContrata {
+    width: 30em;
+  }
+
+  .habilidades {
+    width: 30em;
+  }
+
+  .progress {
+    width: 30em;
+  }
+
+  .projetos {
+    height: 1500px;
+  }
+
+  .caixas-projetos {
+    width: 350px;
+  }
+
+  .box-projeto p {
+    font-size: 15px;
+    color: #797f7d;
+    text-align: left;
+  }
+
+  .box-projeto {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+  }
+}
