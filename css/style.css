@@ -306,9 +306,10 @@ strong {
 }
 
 /*mobile*/
-@media (max-width: 720px) {
-  .container {
-    padding: 10px;
+@media (max-width: 576px) {
+  body {
+    position: absolute;
+    background-color: #00a78e;
   }
   .intro {
     width: 30em;
@@ -332,6 +333,8 @@ strong {
 
   .projetos {
     height: 1500px;
+    width: 100%;
+    border: 5px solid #00a78e;
   }
 
   .caixas-projetos {
