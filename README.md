@@ -1,5 +1,6 @@
 # d2.4-pag-pessoal-responsiva
 Adicionando responsividade a página pessoal (mobile)
+responsividade ainda não finalizada
 
 ## View Page
 
