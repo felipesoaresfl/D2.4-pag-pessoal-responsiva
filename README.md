@@ -1,7 +1,9 @@
-# d2.4-pag-pessoal-responsiva
-Adicionando responsividade a página pessoal (mobile)
-responsividade ainda não finalizada
+# d2.4 - Página Pessoal Responsiva
+
+Adicionando responsividade a página pessoal (mobile).
+
+OBS: Responsividade ainda não finalizada
 
 ## View Page
 
-https://felipesoaresfl.github.io/d2.3-pag-pessoal/
+https://felipesoaresfl.github.io/D2.4-pag-pessoal-responsiva/
