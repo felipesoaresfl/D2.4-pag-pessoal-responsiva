@@ -309,10 +309,10 @@ strong {
 @media (max-width: 576px) {
   body {
     position: absolute;
-    background-color: #00a78e;
   }
-  .intro {
-    width: 30em;
+
+  .container {
+    width: 100%;
   }
 
   .conteudo {
