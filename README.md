@@ -1,4 +1,4 @@
-# d2.4 - Página Pessoal Responsiva
+# D2.4 - Página Pessoal Responsiva
 
 Adicionando responsividade a página pessoal (mobile).
 
